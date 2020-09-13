@@ -46,8 +46,5 @@ Conda.runconda(`install jupyter --yes`)
 Conda.runconda(`install matplotlib --yes`)
 Conda.runconda(`install folium -c conda-forge --yes`)
 
-println("Updating packages...")
-Pkg,update()
-
 println("Precompiling all packages...")
 Pkg.precompile()
