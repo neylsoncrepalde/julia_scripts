@@ -38,6 +38,7 @@ Pkg.add("ScikitLearn")
 Pkg.add("SimpleHypergraphs")
 Pkg.add("SparseArrays")
 Pkg.add("StatsBase")
+Pkg.add("StatsKit")
 Pkg.add("Turing")
 Pkg.add("XLSX")
 
